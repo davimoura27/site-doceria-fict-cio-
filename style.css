@@ -1,0 +1,383 @@
+.container {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 110, 255);
+    width: 20%;
+    height: 74rem;
+    padding: 50px;
+    gap: 50px;
+    position: fixed;
+    margin-top: 60%;
+
+}
+
+.navbar h1 {
+    color: aliceblue;
+    font-size: 50px;
+
+    margin-left: -30px;
+    margin-top: 30px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: last baseline;
+    flex-direction: column;
+    gap: 60px;
+
+    font-size: 30px;
+    list-style: none;
+
+}
+
+.menu li a {
+    color: aliceblue;
+}
+
+.alinhar {
+    position: absolute;
+    left: 520px;
+    height: 40px;
+
+}
+
+.bem-vindo {
+
+    height: 800px;
+    background-image: url(/img\ doceria/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: -50px;
+
+}
+
+.descrição {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.descrição h1 {
+    color: rgb(0, 110, 255);
+    font-size: 70px;
+    margin-top: 58%;
+
+}
+
+.img3 {
+    background-image: url(/img\ doceria/banner3.jpg);
+    width: 35%;
+    height: 620px;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 4%;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 37%;
+    margin-top: -43%;
+    gap: 50px;
+    font-size: 25px;
+    padding: 30px;
+    padding-right: 55px;
+    line-height: 2;
+}
+
+.texto a {
+    background-color: rgb(0, 110, 255);
+    color: aliceblue;
+    width: 30%;
+    height: 70px;
+
+    text-align: center;
+
+    padding-top: 20px;
+    margin-left: -70%;
+}
+
+.organizar-sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.organizar-sobre h1 {
+    font-size: 70px;
+    color: rgb(0, 110, 255);
+    margin-left: -90%;
+    margin-top: 70%;
+
+}
+
+.img4 {
+    background-image: url(/img\ doceria/banner4.jpg);
+    width: 32%;
+    height: 620px;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 4%;
+    margin-left: 59%;
+}
+
+.texto-sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -9%;
+    margin-top: -46%;
+    gap: 50px;
+    font-size: 25px;
+    padding: 35px;
+    padding-right: 38%;
+    line-height: 2;
+}
+
+.doces1 {
+    margin: 70px;
+    margin-top: 15%;
+
+
+}
+.doces1 h1{
+    font-size: 60px;
+    color: rgb(0, 110, 255);
+    display: flex;
+    margin-top: -5%;
+    
+}
+
+.orgimagem {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.imgdoce1 {
+    background-image: url(/img\ doceria/galeria1.jpg);
+    width: 20%;
+    height: 300px;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+
+.imgdoce2 {
+    background-image: url(/img\ doceria/galeria2.jpg);
+    width: 20%;
+    height: 300px;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+
+.imgdoce3 {
+    background-image: url(/img\ doceria/galeria3.jpg);
+    width: 20%;
+    height: 300px;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+
+.imgdoce4 {
+    background-image: url(/img\ doceria/galeria4.jpg);
+    width: 20%;
+    height: 300px;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+
+.imgdoce5 {
+    background-image: url(/img\ doceria/galeria5.jpg);
+    width: 20%;
+    height: 300px;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+
+
+
+
+
+
+.doces2 {
+    margin: 70px;
+    margin-top: 10%;
+
+
+}
+
+.doces2 h1 {
+    font-size: 60px;
+    color: rgb(0, 110, 255);
+    display: flex;
+    margin-top: -5%;
+
+}
+.orgimagem2 {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    
+    width: 148%;
+    
+}
+.imgdoce6 {
+    background-image: url(/img\ doceria/galeria6.jpg);
+    width: 21%;
+    height: 300px;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+.imgdoce7 {
+    background-image: url(/img\ doceria/galeria7.jpg);
+    width: 21%;
+    height: 300px;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+.imgdoce8 {
+    background-image: url(/img\ doceria/galeria8.jpg);
+    width: 21%;
+    height: 300px;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+
+
+
+
+.doces3 {
+    margin: 70px;
+    margin-top: 10%;
+
+
+}
+
+.doces3 h1 {
+    font-size: 60px;
+    color: rgb(0, 110, 255);
+    display: flex;
+    margin-top: -5%;
+
+}
+
+.orgimagem3 {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+
+    width: 107%;
+
+}
+
+.imgdoce9 {
+    background-image: url(/img\ doceria/galeria9.jpg);
+    width: 21%;
+    height: 300px;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+
+.imgdoce10 {
+    background-image: url(/img\ doceria/galeria10.jpg);
+    width: 21%;
+    height: 300px;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+
+.imgdoce11 {
+    background-image: url(/img\ doceria/galeria11.jpg);
+    width: 21%;
+    height: 300px;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+.imgdoce12 {
+    background-image: url(/img\ doceria/galeria12.jpg);
+    width: 21%;
+    height: 300px;
+    background-position: center;
+    float: left;
+    background-size: cover;
+}
+
+.formulario h1 {
+font-size: 60px;
+color: rgb(0, 110, 255);
+    display: flex;
+  margin-left: 65px;
+}
+.orgformulario{
+    display: flex;   
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 66px;
+    margin-top: 30px;
+    
+       
+}
+.orgformulario input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid #2a7fe0;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 20px;
+    
+   }
+   .orgformulario textarea{
+    display: flex;
+        flex-direction: column;
+        width: 50%;
+        border: 1px solid #2a7fe0;
+        height: 200px;
+        padding: 10px;
+        padding-left: 20px;
+        font-size: 20px;
+        align-items: center;
+        color: #777;
+        text-align: 30px;
+   }
+.orgformulario a{
+    display: flex;
+        flex-direction: column;
+        width: 15%;
+  background-color: #2a7fe0;
+  color: aliceblue;
+      
+        padding: 30px;
+        align-items: center;
+        font-size: 20px;
+}
+.senai{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
